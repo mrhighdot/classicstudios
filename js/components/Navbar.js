@@ -1,6 +1,6 @@
 class Header extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = html`<nav>
+    this.innerHTML = `<nav>
       <div class="logo-container">
         <img src="../../assets/icons/brand/logo_white.png" class="logo" />
       </div>
@@ -23,7 +23,7 @@ class Header extends HTMLElement {
 class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `<footer>
-    <h1>Hello</h1>
+    <span>Copyright © Classic Studios | 2024</span>
       </footer>`;
   }
 }
