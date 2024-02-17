@@ -192,13 +192,25 @@ video {
 
 .project-header .project-cat {
   display: flex;
+  width: 100%;
+  cursor: pointer;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
 }
 
+.project-header .img-holder h4:hover {
+  
+}
+
+.service-list-item .tags {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
 .project-copy {
-  margin-top: 12px;
+  margin: 12px 0;
 }
 
 .project-copy p {
