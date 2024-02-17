@@ -10,10 +10,10 @@ class Header extends HTMLElement {
         </div>
 
         <ul id="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="store.html">Store</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="../../html/index.html">Home</a></li>
+          <li><a href="../../html/store.html">Store</a></li>
+          <li><a href="../../html/services.html">Services</a></li>
+          <li><a href="../../html/contact.html">Contact</a></li>
         </ul>
       </div>
     </nav>`;
