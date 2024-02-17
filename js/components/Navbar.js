@@ -1,20 +1,22 @@
 class Header extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = `<nav>
-    <div class="logo-container"><img src="../../assets/icons/brand/logo_white.png" class="logo"/></div>
-    <div class="nav-list-container">
+    this.innerHTML = html`<nav>
+      <div class="logo-container">
+        <img src="../../assets/icons/brand/logo_white.png" class="logo" />
+      </div>
+      <div class="nav-list-container">
         <div id="menuIconContainer">
-            <div id="menuIcon">&#9776;</div>
+          <button><span id="menuIcon">&#9776;</span></button>
         </div>
-        
+
         <ul id="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="store.html">Store</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="store.html">Store</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-    </div>
-      </nav>`;
+      </div>
+    </nav>`;
   }
 }
 
